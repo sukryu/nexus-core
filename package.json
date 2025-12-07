@@ -1,0 +1,31 @@
+{
+  "name": "@nexus/core",
+  "version": "0.1.0",
+  "description": "Nexus.js Core - Context propagation and enterprise-grade infrastructure for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "poc": "tsx src/poc/context-poc.ts",
+    "poc:cancellation": "tsx src/poc/cancellation-poc.ts",
+    "poc:cache": "tsx src/poc/cache-poc.ts"
+  },
+  "keywords": [
+    "nexus",
+    "context",
+    "enterprise",
+    "backend",
+    "infrastructure"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sukryu/aethel-ts": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
